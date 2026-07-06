@@ -4,6 +4,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Search, ShoppingBag, Heart, Menu, X, Disc } from 'lucide-react';
 import { ShopContext } from '../../context/ShopContext';
 
+import brandLogo from "@/assets/images/brandlogo.png";
+
 const Navbar = () => {
   const { getCartCount, favorites, setCartOpen, setSearchOpen } = useContext(ShopContext);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -19,15 +21,16 @@ const Navbar = () => {
     <>
       <header className="fixed top-0 left-0 right-0 z-40 glass-nav transition-all duration-300">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          
+
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="relative flex items-center justify-center w-9 h-9 rounded-full bg-brand-accent/10 border border-brand-accent/30 group-hover:bg-brand-accent/20 transition-all duration-300">
+            {/* <div className="relative flex items-center justify-center w-9 h-9 rounded-full bg-brand-accent/10 border border-brand-accent/30 group-hover:bg-brand-accent/20 transition-all duration-300">
               <Disc className="w-5 h-5 text-brand-accent animate-spin-slow group-hover:scale-110 transition-transform" />
             </div>
             <span className="font-sans font-bold text-lg tracking-[0.25em] text-white transition-colors duration-300 group-hover:text-brand-accent">
               ORAVOX
-            </span>
+            </span> */}
+            <img src={brandLogo} alt="brand logo" className="w-full h-24 object-contain max-w-[150px]" />
           </Link>
 
           {/* Desktop Navigation Links */}
@@ -37,8 +40,7 @@ const Navbar = () => {
                 key={link.name}
                 to={link.path}
                 className={({ isActive }) =>
-                  `font-sans text-xs tracking-widest uppercase transition-colors duration-300 hover:text-brand-accent ${
-                    isActive ? 'text-brand-accent font-medium' : 'text-brand-muted'
+                  `font-sans text-xs tracking-widest uppercase transition-colors duration-300 hover:text-brand-accent ${isActive ? 'text-brand-accent font-medium' : 'text-brand-muted'
                   }`
                 }
               >
@@ -118,8 +120,7 @@ const Navbar = () => {
                   to={link.path}
                   onClick={() => setMobileMenuOpen(false)}
                   className={({ isActive }) =>
-                    `font-sans text-sm tracking-widest uppercase transition-colors py-2 ${
-                      isActive ? 'text-brand-accent' : 'text-brand-muted'
+                    `font-sans text-sm tracking-widest uppercase transition-colors py-2 ${isActive ? 'text-brand-accent' : 'text-brand-muted'
                     }`
                   }
                 >

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { Disc, ArrowRight, Instagram, Twitter, Facebook, Youtube } from 'lucide-react';
+import brandLogo from "@/assets/images/brandlogo.png";
 
 const Footer = () => {
   const { register, handleSubmit, formState: { errors }, reset } = useForm();
@@ -17,16 +18,11 @@ const Footer = () => {
   return (
     <footer className="bg-[#0D0D0E] border-t border-brand-border text-white pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
-        
+
         {/* Brand Column */}
         <div className="lg:col-span-2 space-y-6">
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-accent/10 border border-brand-accent/30 group-hover:bg-brand-accent/20 transition-all duration-300">
-              <Disc className="w-4.5 h-4.5 text-brand-accent animate-spin-slow" />
-            </div>
-            <span className="font-sans font-bold text-lg tracking-[0.25em] text-white">
-              ORAVOX
-            </span>
+            <img src={brandLogo} alt="brand logo" className="w-full h-24 object-contain max-w-[150px]" />
           </Link>
           <p className="text-sm text-brand-muted max-w-sm font-light leading-relaxed">
             Crafting pure, unaltered acoustic experiences for seekers of high-fidelity sound. Designed with technical excellence and minimalist luxury.
@@ -156,7 +152,7 @@ const Footer = () => {
         <div>
           &copy; {new Date().getFullYear()} Oravox Acoustics. All rights reserved.
         </div>
-        
+
         {/* Payment Methods */}
         <div className="flex items-center space-x-3 text-[10px] uppercase tracking-wider text-brand-muted">
           <span>Visa</span>
