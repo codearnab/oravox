@@ -1,0 +1,32 @@
+[
+  {
+    "id": "faq-1",
+    "question": "What is the warranty policy on Oravox products?",
+    "answer": "All Oravox products come with a comprehensive 2-year manufacturer warranty from the date of purchase. This covers any manufacturing defects, hardware malfunctions, or unexpected component failures. Contact our support team for claims.",
+    "category": "General"
+  },
+  {
+    "id": "faq-2",
+    "question": "Do Oravox products support dual-device multipoint pairing?",
+    "answer": "Yes, our wireless products (Oravox Halo, Oravox Cove, and Oravox Anchor) support Bluetooth Multipoint. This allows you to connect to two devices simultaneously—for example, your laptop and your phone—and seamlessly switch audio between them.",
+    "category": "Products"
+  },
+  {
+    "id": "faq-3",
+    "question": "What is your shipping and return policy?",
+    "answer": "We offer free standard shipping on all orders over $150. For returns, we provide a 30-day risk-free trial. If you are not completely satisfied with your audio experience, you can return your product in its original packaging for a full refund.",
+    "category": "Shipping"
+  },
+  {
+    "id": "faq-4",
+    "question": "Are Oravox earbuds suitable for working out and intense sports?",
+    "answer": "Yes. Oravox Cove features an IPX7 waterproof rating, making it fully sweatproof and capable of immersion in water. Oravox Wrap has an IPX5 sweatproof rating. Both are designed with ergonomic fit locks to stay securely in place during active movement.",
+    "category": "Products"
+  },
+  {
+    "id": "faq-5",
+    "question": "Can I use Oravox Edge with non-smart televisions?",
+    "answer": "Yes. While Oravox Edge is optimized for HDMI eARC, it also features an optical digital input (TOSLINK) and standard 3.5mm Aux connection, making it compatible with older televisions and audio players.",
+    "category": "Products"
+  }
+]

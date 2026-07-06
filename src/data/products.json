@@ -1,0 +1,398 @@
+[
+  {
+    "id": "oravox-cove",
+    "name": "Oravox Cove",
+    "category": "Wireless Earbuds",
+    "price": 249.00,
+    "rating": 4.8,
+    "reviewCount": 128,
+    "status": "In Stock",
+    "badge": "Best Seller",
+    "description": "Elite active noise-cancelling earbuds delivering immersive studio acoustics, high-resolution wireless streaming, and ergonomic security for active life.",
+    "features": [
+      "Hybrid ANC up to 45dB with dynamic ambient pass-through mode",
+      "High-Res Wireless Audio with LDAC & AAC codec support",
+      "Smart touch controls with customizable gestures via app",
+      "IPX7 waterproof and sweat-resistant nanocoating",
+      "Up to 36 hours of total battery life with wireless charging case"
+    ],
+    "specs": {
+      "Driver Size": "11mm Custom Dynamic Driver",
+      "Frequency Range": "20Hz - 40kHz",
+      "Bluetooth Version": "Bluetooth 5.3",
+      "Battery Life": "8 hrs (ANC on) / 28 hrs case",
+      "Water Resistance": "IPX7 Certified",
+      "Charging Type": "USB-C & Qi Wireless Charging"
+    },
+    "images": [
+      "/assets/products/oravox-cove-1.webp",
+      "/assets/products/oravox-cove-2.webp"
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "name": "Sarah Miller",
+        "rating": 5,
+        "date": "2026-05-12",
+        "comment": "The active noise cancellation is stunning. Easily blocks out subway noise and the sound signature is incredibly warm."
+      },
+      {
+        "id": "r2",
+        "name": "David K.",
+        "rating": 4.5,
+        "date": "2026-06-01",
+        "comment": "Exceptional treble clarity. Battery life is solid and wireless charging is super convenient. Highly recommend."
+      }
+    ]
+  },
+  {
+    "id": "oravox-drift",
+    "name": "Oravox Drift",
+    "category": "Bluetooth Speakers",
+    "price": 189.00,
+    "rating": 4.6,
+    "reviewCount": 94,
+    "status": "In Stock",
+    "badge": "Popular",
+    "description": "Rugged waterproof outdoor bluetooth speaker with dual passive radiators, 360-degree acoustic dispersion, and a robust shockproof aluminum shell.",
+    "features": [
+      "IP67 Dustproof and Waterproof structure (submersible)",
+      "360-degree omnidirectional sound with deep acoustic waveguide",
+      "24 hours of non-stop battery life on a single charge",
+      "PartyConnect stereo pairing with up to 100 speakers",
+      "Custom woven structural nylon strap with carabiner clip"
+    ],
+    "specs": {
+      "Power Output": "30W RMS Power",
+      "Frequency Range": "55Hz - 20kHz",
+      "Bluetooth Version": "Bluetooth 5.2",
+      "Battery Life": "Up to 24 hours playback",
+      "Water Resistance": "IP67 Rated",
+      "Charging Type": "USB-C Quick-Charge"
+    },
+    "images": [
+      "/assets/products/oravox-drift-1.webp",
+      "/assets/products/oravox-drift-2.webp"
+    ],
+    "reviews": [
+      {
+        "id": "r3",
+        "name": "Marcus Chen",
+        "rating": 5,
+        "date": "2026-04-18",
+        "comment": "Took it on a camping trip in the rain. Sounded crisp, got wet, and had zero issues. The bass response is incredible for its size."
+      }
+    ]
+  },
+  {
+    "id": "oravox-thread",
+    "name": "Oravox Thread",
+    "category": "In-Ear Monitors",
+    "price": 349.00,
+    "rating": 4.9,
+    "reviewCount": 72,
+    "status": "In Stock",
+    "badge": "Audiophile Choice",
+    "description": "High-resolution wired in-ear monitors for audiophiles, featuring custom dual-balanced armature drivers and a silver-plated oxygen-free copper detachable cable.",
+    "features": [
+      "Hybrid driver layout: Dual Balanced Armatures + Single Dynamic Driver",
+      "Premium detachable MMCX silver-plated braided copper cable",
+      "Hand-polished medical-grade acoustic resin shell",
+      "Professional-grade sound isolation up to 26dB",
+      "Precision gold-plated 3.5mm low-impedance termination plug"
+    ],
+    "specs": {
+      "Drivers": "1 Dynamic Woofer + 2 Balanced Armature Tweeters",
+      "Impedance": "18 Ohms @ 1kHz",
+      "Sensitivity": "112dB/mW",
+      "Frequency Range": "10Hz - 40kHz (Hi-Res Audio)",
+      "Cable Length": "1.2m Silver-Plated Braided Copper",
+      "Connector Type": "MMCX Detachable"
+    },
+    "images": [
+      "/assets/products/oravox-thread-1.webp",
+      "/assets/products/oravox-thread-2.webp"
+    ],
+    "reviews": [
+      {
+        "id": "r4",
+        "name": "Johnathan Wood",
+        "rating": 5,
+        "date": "2026-03-22",
+        "comment": "Simply stunning soundstage. You can isolate every instrument. Detail retrieval is rivaling headphones twice its price."
+      }
+    ]
+  },
+  {
+    "id": "oravox-halo",
+    "name": "Oravox Halo",
+    "category": "Over-Ear Headphones",
+    "price": 499.00,
+    "rating": 4.9,
+    "reviewCount": 184,
+    "status": "In Stock",
+    "badge": "Flagship",
+    "description": "Ultra-premium wireless over-ear headphones with adaptive active noise cancellation, custom beryllium drivers, and breathable sheepskin leather ear pads.",
+    "features": [
+      "Fully adaptive Hybrid ANC using six premium sensing microphones",
+      "40mm custom-engineered beryllium dome dynamic drivers",
+      "Genuine sheepskin leather and pressure-relieving memory foam pads",
+      "Stunning 45-hour battery life with ANC deactivated",
+      "High-Res wireless playback via aptX Adaptive and LDAC"
+    ],
+    "specs": {
+      "Driver Size": "40mm Beryllium-Coated Dome",
+      "Frequency Range": "4Hz - 45kHz (Class-Leading)",
+      "Bluetooth Version": "Bluetooth 5.3 (aptX Adaptive/LDAC/AAC)",
+      "Battery Life": "Up to 45 hours (ANC Off) / 38 hours (ANC On)",
+      "Charging Type": "USB-C (10 mins charge = 5 hours play)",
+      "Weight": "285 grams"
+    },
+    "images": [
+      "/assets/products/oravox-halo-1.webp",
+      "/assets/products/oravox-halo-2.webp"
+    ],
+    "reviews": [
+      {
+        "id": "r5",
+        "name": "Elena Rostova",
+        "rating": 5,
+        "date": "2026-05-30",
+        "comment": "The comfort is unmatched. I wore these on a 12-hour flight and forgot they were on my head. Sound is crystal clear, perfectly balanced."
+      }
+    ]
+  },
+  {
+    "id": "oravox-edge",
+    "name": "Oravox Edge",
+    "category": "Soundbars",
+    "price": 799.00,
+    "rating": 4.7,
+    "reviewCount": 58,
+    "status": "In Stock",
+    "badge": "New Release",
+    "description": "Immersive 5.1.2 Dolby Atmos soundbar with built-in subwoofers, advanced acoustic beamforming technology, and eARC support for cinema-grade home theatre.",
+    "features": [
+      "Native Dolby Atmos, DTS:X, and multi-channel audio processing",
+      "5.1.2 acoustic architecture with 11 custom-aligned speakers",
+      "Integrated dual woofers for rich bass without floor clutter",
+      "HDMI eARC configuration for seamless single-remote television operation",
+      "Wireless Apple AirPlay 2, Chromecast, and Spotify Connect integration"
+    ],
+    "specs": {
+      "Total Power": "350W RMS Output",
+      "Connectivity": "HDMI eARC, Optical Input, AUX, Bluetooth 5.0",
+      "Audio Formats": "Dolby Atmos, Dolby Digital Plus, DTS:X, LPCM",
+      "Dimensions": "950 x 65 x 120 mm",
+      "Weight": "4.8 kg",
+      "Voice Engine": "Alexa & Google Assistant Integrated"
+    },
+    "images": [
+      "/assets/products/oravox-edge-1.webp",
+      "/assets/products/oravox-edge-2.webp"
+    ],
+    "reviews": [
+      {
+        "id": "r6",
+        "name": "Robert Vance",
+        "rating": 4.8,
+        "date": "2026-06-15",
+        "comment": "Unbelievable projection. Movies sound huge and deep. The height channels genuinely bounce off the ceiling. Perfect minimalist setup."
+      }
+    ]
+  },
+  {
+    "id": "oravox-wrap",
+    "name": "Oravox Wrap",
+    "category": "Wireless Earbuds",
+    "price": 129.00,
+    "rating": 4.4,
+    "reviewCount": 110,
+    "status": "In Stock",
+    "badge": "Athletic",
+    "description": "Ergonomic neckband wireless earphones built for endurance sports, featuring custom soft-silicone collar design, magnetic ear tips, and extreme battery life.",
+    "features": [
+      "Flexible liquid-silicone contours that rest comfortably on the neck",
+      "Magnetic housings secure the earbuds around your chest when not in use",
+      "Up to 20 hours of continuous music on a single charge",
+      "IPX5 sweatproof and dustproof rating",
+      "Clear voice isolation utilizing Qualcomm cVc 8.0 dual microphone arrays"
+    ],
+    "specs": {
+      "Driver Size": "9.2mm Neodymium Dynamic",
+      "Frequency Range": "20Hz - 20kHz",
+      "Bluetooth Version": "Bluetooth 5.1",
+      "Battery Life": "Up to 20 hours of playback",
+      "Charging Type": "USB-C Fast-Charge",
+      "Water Resistance": "IPX5 Sweat-resistant"
+    },
+    "images": [
+      "/assets/products/oravox-wrap-1.webp",
+      "/assets/products/oravox-wrap-2.webp"
+    ],
+    "reviews": [
+      {
+        "id": "r7",
+        "name": "Kyle Foster",
+        "rating": 4,
+        "date": "2026-05-02",
+        "comment": "Perfect for running. Standard buds always fall out of my ears, but this neckband holds them securely and the battery lasts forever."
+      }
+    ]
+  },
+  {
+    "id": "oravox-cairn",
+    "name": "Oravox Cairn",
+    "category": "Smart Speakers",
+    "price": 299.00,
+    "rating": 4.7,
+    "reviewCount": 46,
+    "status": "In Stock",
+    "badge": "Ambient Design",
+    "description": "Ambient smart home speaker featuring an illuminated hand-blown glass acoustic dome, 360-degree sonic dispersion, and built-in voice command integration.",
+    "features": [
+      "Reactive LED illuminated blown-glass dome with custom light patterns",
+      "360-degree sonic dispersing cone for room-filling acoustic performance",
+      "Dual microphones for integrated smart assistant commands",
+      "Dual-band Wi-Fi streaming with multiroom group sync capabilities",
+      "Touch-capacitive aluminum crown controls for manual operation"
+    ],
+    "specs": {
+      "Amplification": "50W Class-D Digital Amplifier",
+      "Wireless Protocols": "Wi-Fi (2.4/5GHz), Bluetooth 5.0, AirPlay 2",
+      "Light modes": "6 reactive presets (Fireplace, Aurora, Equalizer, etc.)",
+      "Dimensions": "150mm diameter x 210mm height",
+      "Weight": "2.1 kg",
+      "Multiroom support": "Apple AirPlay 2, Spotify Connect, LinkSync"
+    },
+    "images": [
+      "/assets/products/oravox-cairn-1.webp",
+      "/assets/products/oravox-cairn-2.webp"
+    ],
+    "reviews": [
+      {
+        "id": "r8",
+        "name": "Lucia Moretti",
+        "rating": 5,
+        "date": "2026-04-30",
+        "comment": "This speaker is a piece of art. The glass glow looks stunning at night and the acoustic dispersion means it sounds great in any spot."
+      }
+    ]
+  },
+  {
+    "id": "oravox-hearth",
+    "name": "Oravox Hearth",
+    "category": "Bookshelf Speakers",
+    "price": 999.00,
+    "rating": 4.9,
+    "reviewCount": 35,
+    "status": "In Stock",
+    "badge": "Premium Quality",
+    "description": "Audiophile-grade active bookshelf speakers with hand-crafted walnut veneer cabinets, integrated high-end DAC, and powerful Class-D amplification.",
+    "features": [
+      "Genuine handcrafted walnut wood cabinets optimized for thermal acoustics",
+      "Integrated audiophile 24-bit/192kHz digital-to-analog converter",
+      "Dedicated bi-amplified Class-D output system per channel",
+      "Broad inputs including Bluetooth aptX HD, optical, and coaxial digital",
+      "Rear-firing custom-tuned bass reflex port for low-end reinforcement"
+    ],
+    "specs": {
+      "Power Output": "150W RMS Total Output",
+      "Tweeter": "0.75-inch Silk Dome Tweeter",
+      "Woofer": "5.25-inch Woven Kevlar Woofer Cone",
+      "Inputs": "Optical, Coaxial Digital, RCA Stereo, USB-Audio, Bluetooth",
+      "Frequency Range": "45Hz - 22kHz (+/- 3dB)",
+      "Dimensions": "178 x 300 x 230 mm per speaker"
+    },
+    "images": [
+      "/assets/products/oravox-hearth-1.webp",
+      "/assets/products/oravox-hearth-2.webp"
+    ],
+    "reviews": [
+      {
+        "id": "r9",
+        "name": "Thomas Sterling",
+        "rating": 5,
+        "date": "2026-06-20",
+        "comment": "Superb dynamic range. Vocal imaging is dead-center. Using these as a minimalist desktop setup and they are worth every single penny."
+      }
+    ]
+  },
+  {
+    "id": "oravox-skiff",
+    "name": "Oravox Skiff",
+    "category": "Microphones",
+    "price": 159.00,
+    "rating": 4.5,
+    "reviewCount": 68,
+    "status": "In Stock",
+    "badge": "Creator Choice",
+    "description": "Studio-quality USB condenser microphone with zero-latency headphone monitoring, four selectable polar patterns, and a sleek modern desktop stand.",
+    "features": [
+      "Custom triple 14mm condenser capsule array for immaculate recording",
+      "Four recording patterns: Cardioid, Stereo, Omnidirectional, Bidirectional",
+      "Built-in zero-latency 3.5mm real-time headphone monitoring output",
+      "Smooth hardware microphone gain adjustments and instant silent mute button",
+      "Heavyweight solid aluminum stand with integrated shock-isolation dampening"
+    ],
+    "specs": {
+      "Sample Rate": "24-bit / 96kHz High-Fidelity Recording",
+      "Capsules": "3 x 14mm proprietary condenser capsules",
+      "Frequency Response": "20Hz - 20kHz",
+      "Max SPL": "120dB (THD: 0.5% 1kHz)",
+      "System Output": "USB-C Direct Plug-and-Play compatibility"
+    },
+    "images": [
+      "/assets/products/oravox-skiff-1.webp",
+      "/assets/products/oravox-skiff-2.webp"
+    ],
+    "reviews": [
+      {
+        "id": "r10",
+        "name": "Emily Watson",
+        "rating": 4.5,
+        "date": "2026-05-24",
+        "comment": "My podcast listeners noticed the sound quality difference immediately. Crystal clear capture and the gain dial is very solid."
+      }
+    ]
+  },
+  {
+    "id": "oravox-anchor",
+    "name": "Oravox Anchor",
+    "category": "Bluetooth Speakers",
+    "price": 599.00,
+    "rating": 4.8,
+    "reviewCount": 82,
+    "status": "In Stock",
+    "badge": "High Power",
+    "description": "Extreme-power portable outdoor party speaker featuring deep chest-thumping bass, synchronised dynamic ring lights, and an IPX4 splash-proof construction.",
+    "features": [
+      "Colossal 120W acoustic power stage for large outdoor events",
+      "Dynamic dual LED halo rings synced to the rhythm of your audio",
+      "Up to 18 hours of continuous battery life with reverse powerbank out",
+      "IPX4 splashproof certified housing with heavy duty handle",
+      "Dedicated 1/4-inch instrument and microphone inputs with hardware gain control"
+    ],
+    "specs": {
+      "Power Output": "120W RMS (Bass Boost Enabled)",
+      "Drivers": "2 x 5.25-inch Woofers + 2 x 2-inch Custom Dome Tweeters",
+      "Battery Life": "Up to 18 hours (Light effects disabled)",
+      "Bluetooth Version": "Bluetooth 5.3",
+      "Inputs": "Bluetooth, 3.5mm Aux-In, USB-Media, 2 x 1/4\" Instrument Jack",
+      "Weight": "9.5 kg"
+    },
+    "images": [
+      "/assets/products/oravox-anchor-1.webp",
+      "/assets/products/oravox-anchor-2.webp"
+    ],
+    "reviews": [
+      {
+        "id": "r11",
+        "name": "Alex Mercer",
+        "rating": 5,
+        "date": "2026-06-11",
+        "comment": "This speaker is a beast! The bass actually shakes the floor, and the light rings make it feel like a club. Very solid build."
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOCX Parser</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #f0f0f0; color: #333; }
+    #container { max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    #output { margin-top: 20px; padding: 15px; border: 1px solid #ccc; background: #fafafa; white-space: pre-wrap; min-height: 200px; }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h2>DOCX Parser Utility</h2>
+    <input type="file" id="fileInput">
+    <div id="output">Upload a DOCX file to see its contents...</div>
+  </div>
+  <script>
+    document.getElementById('fileInput').addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      
+      document.getElementById('output').innerText = 'Reading file...';
+      
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const arrayBuffer = e.target.result;
+        mammoth.extractRawText({arrayBuffer: arrayBuffer})
+          .then(function(result) {
+            document.getElementById('output').innerText = result.value;
+          })
+          .catch(function(err) {
+            document.getElementById('output').innerText = 'Error: ' + err.message;
+          });
+      };
+      reader.readAsArrayBuffer(file);
+    });
+  </script>
+</body>
+</html>
